@@ -1,0 +1,51 @@
+body{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #333333;
+	position: relative;
+}
+
+#navBar{
+	position: relative;
+	width: 100%;
+	height: 60px;
+	background-color: #336699;
+}
+
+#collabs{
+	position: relative;
+	font-size: 20px;
+	color: #ffffff;
+	width: 100%;
+	height:20%;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 2%;
+}
+
+h1, h2{
+	position: relative;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+#answers{
+	position: relative;
+	font-size: 20px;
+	color: #ffffff;
+	font-family: 'Roboto Slab', serif;
+	margin-top: 5%;
+	margin-left: 8%;
+	margin-right: 8%;
+
+}
+
+li{
+	padding-top: 5px;
+}
+

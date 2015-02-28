@@ -22,10 +22,10 @@
 	<ol>
 		<li>/sbin/service httpd status</li>
 		<li>The server root is the path to the webserver executable, where as the document root contains the files actually delivered by the server</li>
-		<li></li>
-		<li></li>
-		<li>Testing</li>
-		<li></li>
+		<li>The web server listens to port 80.</li>
+		<li>Your files should be located in "/srv/http"</li>
+		<li>Any log files will be found in "/etc/httpd/logs" and error files are located in "/var/www/error"</li>
+		<li>A directory index file lets us specify a default page when accessing directories. It is good to have one in each directory in order to display that directory.</li>
 		<li>This can be don by creating a UserDirectory with each person's unique userid, and then creating a public_html directory within each of those directories (the public_html directory is the end user account).</li>
 		<li>'<'Files ~ "^\.ht"'>' Order allow,deny Deny from all Satisfy All '<'/Files'>'</li>
 		<li>This can be done by setting 'Alias /error/include "path to file" and ErrorDocument 404/error/name.of.custom.file</li>
